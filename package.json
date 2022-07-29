@@ -1,0 +1,22 @@
+{
+  "name": "Node-Webcam-Stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "start:watch": "npx nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "getusermedia": "^2.0.1",
+    "moment": "^2.29.4",
+    "node-webcam": "^0.8.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon" : "^2.0.19"
+  }
+}
